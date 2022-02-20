@@ -1,6 +1,16 @@
-/* $font-navbar:'Permanent Marker', cursive;
-$font-body:'Permanent Marker', cursive;
-$font-footer:'Permanent Marker', cursive; */
+/* 
+
+@import "vars.scss";
+@import "_header.scss";
+@import "_sections.scss";
+@import "_footer.scss";
+@import "_portafolio.scss";
+
+
+
+ */
+/* variables */
+/* header */
 .bg-color-alt {
   background-color: #ff80ab;
 }
@@ -31,6 +41,7 @@ header nav .container-fluid a {
   font-size: 150%;
 }
 
+/* sections */
 section.container-fluid div.row .resaltar:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -41,22 +52,34 @@ section div.container .row .resaltar:hover {
           transform: scale(1.1);
 }
 
+/* footer */
 footer {
   background-color: #ea5174;
+  margin-bottom: 0;
 }
 
-footer .row .info-pie p {
+footer .container .row .info-pie h5 {
+  font-weight: 800;
+}
+
+footer .container .row .info-pie ul {
+  padding-left: 0;
+}
+
+footer .container .row .info-pie ul li {
   margin: 0;
-  padding: 0.6rem;
   -webkit-transition: all 2xs;
   transition: all 2xs;
+  margin-bottom: 0.5rem;
+  list-style: none;
 }
 
-footer .row .info-pie p:hover {
+footer .container .row .info-pie ul li:hover {
   text-decoration: underline;
   background-color: #ffb2dd;
 }
 
+/* portafolio */
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
