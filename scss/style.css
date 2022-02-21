@@ -28,7 +28,7 @@ header .container-fluid .row div .start-icon {
 
 header .container-fluid .row div .start-icon:hover {
   width: 90px;
-  background-color: magenta;
+  background-color: #ffb2dd;
 }
 
 header .container-fluid .row .size-logo {
@@ -77,6 +77,39 @@ footer .container .row .info-pie ul li {
 footer .container .row .info-pie ul li:hover {
   text-decoration: underline;
   background-color: #ffb2dd;
+}
+
+footer .container .row .info-pie ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .container .row .info-pie .fondo a {
+  color: black;
+}
+
+footer .container .row .info-pie .fondo a.fb:hover {
+  color: blue;
+}
+
+footer .container .row .info-pie .fondo a.wp:hover {
+  color: green;
+}
+
+footer .container .row .info-pie .fondo a.in:hover {
+  color: #bc1888;
+}
+
+footer .container .row .info-pie .fondo a.yt:hover {
+  color: red;
+}
+
+footer .container .row .info-pie .fondo a.pt:hover {
+  color: darkred;
+}
+
+footer .container .row .info-pie .fondo a.tw:hover {
+  color: #00acee;
 }
 
 /* portafolio */
