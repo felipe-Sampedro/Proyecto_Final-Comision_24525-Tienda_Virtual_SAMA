@@ -20,19 +20,19 @@
 }
 
 header .container-fluid .row div .start-icon {
-  width: 45px;
+  width: 30px;
   height: auto;
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 header .container-fluid .row div .start-icon:hover {
-  width: 90px;
+  width: 50px;
   background-color: #ffb2dd;
 }
 
 header .container-fluid .row .size-logo {
-  width: 35%;
+  width: 75%;
   height: auto;
 }
 
@@ -217,5 +217,31 @@ footer .container .row .info-pie .fondo a.tw:hover {
 
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  header .container-fluid .row div .start-icon {
+    width: 35px;
+  }
+  header .container-fluid .row div .start-icon:hover {
+    width: 70px;
+  }
+  header .container-fluid .row .size-logo {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  header .container-fluid .row div .start-icon {
+    width: 45px;
+  }
+  header .container-fluid .row div .start-icon:hover {
+    width: 90px;
+  }
+  header .container-fluid .row .size-logo {
+    width: 30%;
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

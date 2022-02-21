@@ -10,9 +10,6 @@
 
  */
 
-
-
-
 /* variables */
 
 $font-navbar:'DM Sans', sans-serif;
@@ -36,17 +33,17 @@ header{
         .row{
             div{
                 .start-icon{
-                    width: 45px;
+                    width: 30px;
                     height: auto;
-                    transition: all 2s;
+                    transition: all 0.8s;
                     &:hover{
-                        width: 90px;
+                        width: 50px;
                         background-color: #ffb2dd;    
                     }
                 }
             }
             .size-logo{
-                width:35%;
+                width:75%;
                 height:auto             
             }
         }
@@ -255,4 +252,51 @@ footer{
             opacity: 0.3;
         }
     }
+}
+
+
+@media (min-width: 768px) {
+
+    header{
+    .container-fluid{
+        .row{
+            div{
+                .start-icon{
+                    width: 35px;
+                    &:hover{
+                        width: 70px;   
+                    }
+                }
+            }
+            .size-logo{
+                width:50%;
+                height:auto             
+            }
+        }
+    }
+}
+}
+
+
+
+@media (min-width: 1024px) {
+
+    header{
+    .container-fluid{
+        .row{
+            div{
+                .start-icon{
+                    width: 45px;
+                    &:hover{
+                        width: 90px;   
+                    }
+                }
+            }
+            .size-logo{
+                width:30%;
+                height:auto             
+            }
+        }
+    }
+}
 }
