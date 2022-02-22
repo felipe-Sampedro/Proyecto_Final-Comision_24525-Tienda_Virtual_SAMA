@@ -1,0 +1,44 @@
+/* header */
+
+.bg-color-alt{
+    background-color: #ff80ab
+}
+
+.bg-color-alt2{
+    background-color: #ffb2dd
+}
+
+
+header{
+    .container-fluid{
+        .row{
+            div{
+                .start-icon{
+                    width: 30px;
+                    height: auto;
+                    transition: all 0.8s;
+                    &:hover{
+                        width: 50px;
+                        background-color: #ffb2dd;    
+                    }
+                }
+            }
+            .size-logo{
+                width:75%;
+                height:auto             
+            }
+        }
+    }
+}
+
+
+header{
+    nav{
+        .container-fluid{
+            a{
+                font-family:$font-navbar;
+                font-size: 150%;
+            }
+        }
+    }
+}

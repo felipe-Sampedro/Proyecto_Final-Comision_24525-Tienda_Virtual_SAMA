@@ -1,0 +1,47 @@
+// Breakpints
+
+@media (min-width: 768px) {
+
+    header{
+    .container-fluid{
+        .row{
+            div{
+                .start-icon{
+                    width: 35px;
+                    &:hover{
+                        width: 70px;   
+                    }
+                }
+            }
+            .size-logo{
+                width:50%;
+                height:auto             
+            }
+        }
+    }
+}
+}
+
+
+
+@media (min-width: 1024px) {
+
+    header{
+    .container-fluid{
+        .row{
+            div{
+                .start-icon{
+                    width: 45px;
+                    &:hover{
+                        width: 90px;   
+                    }
+                }
+            }
+            .size-logo{
+                width:30%;
+                height:auto             
+            }
+        }
+    }
+}
+}
